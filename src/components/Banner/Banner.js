@@ -3,7 +3,6 @@ import { homepageBanner } from '../../data/HomePageData';
 import './Banner.css';
 import { CgChevronRight, CgChevronLeft } from 'react-icons/cg';
 import { SmoothHorizontalScrolling } from '../../utils/index';
-import { Link } from 'react-router-dom';
 function Banner() {
     const slideRef = useRef();
     const bannerRef = useRef();
@@ -36,9 +35,7 @@ function Banner() {
             {homepageBanner.map((item) => {
                 return (
                     <div key={item.id} ref={bannerRef}>
-                        <Link to="/">
-                            <img src={item.img} alt="" className="banner__img" />
-                        </Link>
+                        <img src={item.img} alt="" className="banner__img" />
                     </div>
                 );
             })}
