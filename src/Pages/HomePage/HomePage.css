@@ -1,0 +1,36 @@
+.home {
+    background-size: contain;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 40%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    text-align: center;
+    opacity: 0.5;
+}
+.carousel__button:hover,
+.buttonIcon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.left {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+    clip: rect(-10px, 55px, 110px, 0);
+}
+.right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    clip: rect(-10px, 45px, 110px, -10px);
+}
+
+.buttonIcon {
+    font-size: 40px;
+    opacity: 0.5;
+}

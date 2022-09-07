@@ -1,0 +1,19 @@
+.home__banner {
+    height: 346px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    border-radius: 20px;
+}
+.banner__img {
+    width: 100%;
+}
+.banner__button {
+    position: absolute;
+    top: 33%;
+    height: 100px;
+    margin: 0 10px;
+    width: 45px;
+    opacity: 0.5;
+}

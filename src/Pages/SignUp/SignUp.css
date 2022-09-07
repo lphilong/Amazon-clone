@@ -1,0 +1,139 @@
+.mb-14 {
+    margin-bottom: 14px;
+}
+.signup__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.signup__header {
+    padding: 20px;
+}
+.signup__logo {
+    background: url('/src/amazon-image/mPGmT0r6IeTyIee.png') no-repeat;
+    background-position: -5px -130px;
+    height: 31px;
+    width: 103px;
+}
+.signup__body {
+    display: block;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    padding: 14px 18px;
+}
+
+.box {
+    width: 300px;
+}
+
+.box__header {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.box__body {
+    display: flex;
+    flex-direction: column;
+}
+.box__form {
+    display: flex;
+    flex-direction: column;
+}
+.box__form p {
+    margin: unset;
+    font-size: 13px;
+    font-weight: 700;
+}
+.box__input {
+    max-width: 100%;
+    margin-top: 3px;
+    padding: 3px 7px;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+.alert__content {
+    font-size: 13px;
+    transform: translateY(-14px);
+}
+.button {
+    padding: 1px 6px;
+    height: 29px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    width: 100%;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: 1px 0 rgb(255 255 255 / 40%) inset;
+}
+.button:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+.box__footer {
+    font-size: 12px;
+    margin-top: 18px;
+}
+.box__footerLine {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+    z-index: 1;
+    margin: 18px 0 -18px;
+}
+.box__footerLine::after {
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+    z-index: 1;
+    content: '';
+}
+.box__footerContent {
+    display: flex;
+    font-size: 13px;
+}
+.box__footerText {
+    margin-right: 5px;
+}
+.box__footerContent a {
+    color: blue;
+}
+.signup__footer {
+    width: 100%;
+    margin-top: 26px;
+    height: 100%;
+}
+.footer__line::after {
+    display: block;
+    width: 100%;
+    height: 35px;
+    z-index: 1;
+    content: '';
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__text {
+    font-size: 11px;
+}
+.footer__text a:nth-child(2) {
+    margin: 0 15px;
+}
+.footer__text span {
+    color: blue;
+}
+.footer__text p {
+    margin: unset;
+}
+.footer__text + .footer__text {
+    margin-top: 10px;
+}

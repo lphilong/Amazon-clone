@@ -1,0 +1,143 @@
+.login__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login__header {
+    padding: 20px;
+}
+.login__logo {
+    background: url('/src/amazon-image/mPGmT0r6IeTyIee.png') no-repeat;
+    background-position: -5px -130px;
+    height: 31px;
+    width: 103px;
+}
+.login__body {
+    display: block;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    padding: 20px 26px;
+}
+
+.box {
+    width: 300px;
+}
+
+.box__header {
+    font-weight: 600;
+}
+.box__header p:first-child {
+    font-size: 28px;
+    margin: unset;
+    padding-bottom: 10px;
+}
+.box__header p:last-child {
+    font-size: 13px;
+    margin: unset;
+    padding-bottom: 5px;
+}
+.box__body {
+    display: flex;
+    flex-direction: column;
+}
+.box__input {
+    max-width: 100%;
+    margin-bottom: 14px;
+    padding: 3px 7px;
+    height: 30px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+.button {
+    padding: 1px 6px;
+    height: 29px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    width: 100%;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: 1px 0 rgb(255 255 255 / 40%) inset;
+}
+.button:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+.box__footer p:first-child {
+    font-size: 12px;
+    margin-top: 18px;
+}
+.box__footer p:last-child {
+    font-size: 13px;
+    margin-top: 24px;
+    color: blue;
+}
+.login__new {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    margin: 12px 0 8px;
+    line-height: 0;
+}
+.login__new p {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+.login__new::after {
+    content: '';
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+.login__footer {
+    width: 100%;
+    margin-top: 26px;
+    height: 100%;
+}
+.footer__line::after {
+    display: block;
+    width: 100%;
+    height: 35px;
+    z-index: 1;
+    content: '';
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__text {
+    font-size: 11px;
+}
+.footer__text a:nth-child(2) {
+    margin: 0 15px;
+}
+.footer__text span {
+    color: blue;
+}
+.footer__text p {
+    margin: unset;
+}
+.footer__text + .footer__text {
+    margin-top: 10px;
+}

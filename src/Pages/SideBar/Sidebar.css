@@ -1,0 +1,26 @@
+.sidebar__container {
+    grid-area: sidebar;
+    margin-left: 5px;
+    width: 300px;
+}
+
+.sidebar__body {
+    margin: unset;
+    display: flex;
+    padding: 0;
+}
+.sidebar__body input {
+    opacity: 0.8;
+    height: 16px;
+    width: 16px;
+}
+.sidebar__body li {
+    list-style-type: none;
+    font-size: 14px;
+}
+.sidebar__header {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 3px;
+}
