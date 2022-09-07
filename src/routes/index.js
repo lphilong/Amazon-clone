@@ -2,7 +2,6 @@ import HomePage from '../Pages/HomePage/HomePage';
 import Login from '../Pages/Login/Login';
 import ProductDetail from '../Pages/ProductDetails';
 import SalePage from '../Pages/SalePage';
-import ShoppingCart from '../Pages/ShoppingCart/ShoppingCart';
 import SignUp from '../Pages/SignUp/SignUp';
 
 const publicRoutes = [
@@ -28,11 +27,6 @@ const publicRoutes = [
     {
         path: '/sp/:id',
         element: ProductDetail,
-        layout: null,
-    },
-    {
-        path: 'cart',
-        element: ShoppingCart,
         layout: null,
     },
 ];

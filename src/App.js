@@ -6,7 +6,7 @@ import MainLayout from './MainLayout/index';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/amazon">
             <div className="App">
                 <Routes>
                     {publicRoutes.map((route, index) => {
