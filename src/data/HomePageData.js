@@ -26,7 +26,7 @@ export const category = [
     },
     {
         id: 3,
-        img: 'https://tintuc.viettelstore.vn/wp-content/uploads/2020/07/Backlit-keyboard-la-gi-1.jpg',
+        img: 'https://image.made-in-china.com/2f0j00zBGRsWAJkdcg/High-Quality-Cool-Computer-Desttop-Gaming-N-Key-Rollover-Anti-Ghosting-Mechanical-Keyboard.jpg',
         des: 'Keyboards',
     },
     {
