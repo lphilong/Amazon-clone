@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from './routes/index';
 import { Fragment } from 'react';
 import MainLayout from './MainLayout/index';
-
+import './responsive.css';
 function App() {
     return (
         <Router basename="/amazon">

@@ -17,7 +17,7 @@ function Category() {
             SmoothHorizontalScrolling(
                 slideRef.current,
                 250,
-                categoryRef.current.clientWidth * 3,
+                categoryRef.current.clientWidth * 1,
                 slideRef.current.scrollLeft,
             );
         }
@@ -28,7 +28,7 @@ function Category() {
             SmoothHorizontalScrolling(
                 slideRef.current,
                 250,
-                -categoryRef.current.clientWidth * 3,
+                -categoryRef.current.clientWidth * 1,
                 slideRef.current.scrollLeft,
             );
         }
@@ -42,7 +42,7 @@ function Category() {
                             <Link to="/sp" key={item.id}>
                                 <div className="category__box" ref={categoryRef}>
                                     <div className="category__description">{item.des}</div>
-                                    <img src={item.img} alt="" className="category__img" />
+                                    <img src={item.img} alt="Coming soon..." className="category__img" />
                                 </div>
                             </Link>
                         );

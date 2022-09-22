@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) {
+    .navbarMb__component {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .navbar__component {
+        display: none;
+    }
+    .navbarMb__component {
+        display: block;
+        background-color: #232f3e;
+    }
+    .navbar__header {
+        flex-direction: column;
+        height: 100%;
+        margin: 0 10px;
+        background: none;
+    }
+    .navbar__first {
+        width: 100%;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .navbar__logo {
+        margin: 15px 0 5px 10px;
+    }
+    .home__banner {
+        height: 100px;
+    }
+    .navbar__search {
+        border-radius: 15px;
+        background: white;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .navbar__searchBox {
+        width: 87%;
+        border-radius: 15px;
+        outline: none;
+        padding: 5px;
+    }
+    .navbar__searchBox,
+    .navbar__searchIcon {
+        margin: unset;
+    }
+    .cart__main {
+        width: 100vw;
+        right: 0;
+    }
+    .cart__container {
+        width: 70vw;
+    }
+    .category__container {
+        height: 40%;
+    }
+    .category__content {
+        padding: 0 90px;
+    }
+    .category__box {
+        padding-right: 50px;
+    }
+    .category__img {
+        height: 200px;
+        width: 200px;
+    }
+    .banner__button {
+        top: 21%;
+        height: 0;
+    }
+}

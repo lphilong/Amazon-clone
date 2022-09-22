@@ -37,16 +37,16 @@ export const category = [
     {
         id: 5,
         img: 'https://m.media-amazon.com/images/I/61kDZZMj4lS._AC_SY200_.jpg',
-        des: 'ffffff',
+        des: 'product',
     },
     {
         id: 6,
         img: 'https://m.media-amazon.com/images/I/61kDZZMj4lS._AC_SY200_.jpg',
-        des: 'ffffff',
+        des: 'product',
     },
     {
         id: 7,
         img: 'https://m.media-amazon.com/images/I/61kDZZMj4lS._AC_SY200_.jpg',
-        des: 'ffffff',
+        des: 'product',
     },
 ];
