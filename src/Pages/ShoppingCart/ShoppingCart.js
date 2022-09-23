@@ -18,7 +18,7 @@ function ShoppingCart() {
     };
     return (
         <div className="cart__main">
-            <div className="cart__container float-right" ref={wrapperRef}>
+            <div className="cart__container float-right">
                 {cartItems.length === 0 ? (
                     <div className="cart__box">
                         <div className="cart__header pl-20">
@@ -48,10 +48,12 @@ function ShoppingCart() {
                                         <div className="cart__qty">Qty: {item.quantity}</div>
                                         <div className="cart__price">Price: ${item.price}</div>
                                     </div>
-                                    <div className="cart__subtotal">${item.price * item.quantity}</div>
-                                    <button className="cart__remove" onClick={() => removeFromCart(item)}>
-                                        x
-                                    </button>
+                                    <div className="subtotal">
+                                        <div className="cart__subtotal">${item.price * item.quantity}</div>
+                                        <button className="cart__remove" onClick={() => removeFromCart(item)}>
+                                            x
+                                        </button>
+                                    </div>
                                 </div>
                             ))}
                         </div>
