@@ -47,6 +47,9 @@
     .navbar__searchIcon {
         margin: unset;
     }
+    .navbar__searchIcon {
+        border-radius: 0 15px 15px 0;
+    }
     .cart__main {
         width: 100vw;
     }
